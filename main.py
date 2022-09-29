@@ -1,12 +1,10 @@
 
-inputvalues = input('Enter all elements values: ')
-numbers1 = inputvalues.split() 
-for i in range(len(numbers1)):
-	numbers1[i] = int(numbers1[i]) 
+inputvalues = input('Enter 5 numbers: ')
+numbers = inputvalues.split() 
+for i in range(len(numbers)):
+	numbers[i] = int(numbers[i]) 
 # The following line is the same as the for-loop
-# numbers1 = list(map(int, numbers))
-
-# print ("The original list: ", numbers1)
+# numbers = list(map(int, numbers))
 
 # ******************************
 # Make your Code
